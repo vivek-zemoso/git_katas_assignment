@@ -19,3 +19,21 @@ git reset --hard HEAD~2
 ```
 
 to move the HEAD back to the `Add README` commit
+
+## Tags
+
+I created 2 tags names `squash` and `README` for 2 different commits.
+
+The tag `squash` for `HEAD` commit
+```
+git tag "squash"
+```
+
+The tag `README` for "Add README" commit by replacing the command
+```
+git tag "README" <commit-hash>
+```
+with
+```
+git tag "README" e5a8f04
+```
